@@ -9,5 +9,11 @@ $GitPromptSettings.DefaultPromptBeforeSuffix.ForegroundColor = 0xa076e8
 $GitPromptSettings.EnableStashStatus = $true
 ```
 
-to open profile you can use command: `notepad.exe $profile`
-to reload profile you can use command: `. $profile`
+- to open profile you can use command: `notepad.exe $profile` 
+- to reload profile you can use command: `. $profile`
+
+<br />
+
+preview: <br />
+
+![](preview/SimpleProfile_01.PNG)
