@@ -1,2 +1,2 @@
-# posh-git_customization_gallery
+# posh-git Customization gallery
 Profiles to customize powershell extension posh-git
