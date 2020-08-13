@@ -17,3 +17,31 @@ $GitPromptSettings.EnableStashStatus = $true
 preview: <br />
 
 ![](preview/SimpleProfile_01.PNG)
+
+
+
+### Some customization commands
+
+```powershell
+# General GIT command aliases
+Function Git-Fetch { git fetch }
+Set-Alias fetch Git-Fetch
+
+Function Git-Pull { git pull }
+Set-Alias pull Git-Pull
+
+Function Git-Push { git push }
+Set-Alias push Git-Push
+
+Function Git-Add { git add . }
+Set-Alias add Git-Add
+
+Function Git-Reset { git reset --hard }
+Set-Alias reset Git-Reset
+
+Function Git-Commit($message) { git commit -m $message }
+Set-Alias commit Git-Commit
+
+Function Git-Checkout($branchName){ git checkout $branchName }
+
+```
