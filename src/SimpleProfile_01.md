@@ -1,6 +1,6 @@
 Paste code to profile:
 
-```
+```powershell
 Import-Module posh-git
 
 $GitPromptSettings.DefaultPromptPath.ForegroundColor = 'Orange'
