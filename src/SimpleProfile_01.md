@@ -44,4 +44,7 @@ Set-Alias commit Git-Commit
 
 Function Git-Checkout($branchName){ git checkout $branchName }
 
+Function Git-RemoveCommmit { git reset --hard HEAD~1 }
+Set-Alias removecommit Git-RemoveCommmit
+
 ```
